@@ -1,0 +1,15 @@
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Release\SubTran.exe.config
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Release\SubTran.exe
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Release\SubTran.pdb
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Release\DevComponents.DotNetBar2.dll
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Release\StringParser.dll
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Release\WebResourceProvider.dll
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Release\SubTran.BaseForm.resources
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Release\SubTran.mainForm.resources
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Release\SubTran.Properties.Resources.resources
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Release\SubTran.exe
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Release\SubTran.pdb
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Release\LanguageNeural.dll

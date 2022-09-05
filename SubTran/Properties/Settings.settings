@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SubTran.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PaypalDonate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;form action="https://www.paypal.com/cgi-bin/webscr" target="_blank" method="post"&gt;
+&lt;input type="hidden" name="cmd" value="_donations"&gt;
+&lt;input type="hidden" name="business" value="sales@cuebiztech.com"&gt;
+&lt;input type="hidden" name="lc" value="US"&gt;
+&lt;input type="hidden" name="no_note" value="0"&gt;
+&lt;input type="hidden" name="currency_code" value="USD"&gt;
+&lt;input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest"&gt;
+&lt;input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"&gt;
+&lt;img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"&gt;
+&lt;/form&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

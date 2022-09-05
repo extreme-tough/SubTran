@@ -1,0 +1,16 @@
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Debug\SubTran.exe
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Debug\SubTran.pdb
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Debug\LanguageNeural.dll
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Debug\NLog.dll
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Debug\LanguageNeural.pdb
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Debug\NLog.xml
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Debug\SubTran.BaseForm.resources
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Debug\SubTran.mainForm.resources
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Debug\SubTran.Properties.Resources.resources
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Debug\SubTran.exe
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\obj\x86\Debug\SubTran.pdb
+C:\Projects\Cuebiz\SubTran\SubTran\SubTran\bin\Debug\NLog.config

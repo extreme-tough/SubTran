@@ -1,0 +1,3797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dotfuscatorMap SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscatorMap_v1.2.dtd">
+<dotfuscatorMap version="1.1">
+    <header>
+        <timestamp>2012-01-04T22:11:58</timestamp>
+        <product version="4.9.5000.15987" user=" " serial="retail-EVA">Dotfuscator Professional Edition EVALUATION</product>
+    </header>
+    <mapping>
+        <module>
+            <name>StringParser.dll</name>
+            <type>
+                <name>RavSoft.StringParser</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>bool(string)</signature>
+                        <name>at</name>
+                    </method>
+                    <method>
+                        <signature>bool(string)</signature>
+                        <name>atNoCase</name>
+                    </method>
+                    <method>
+                        <signature>bool(string, string&amp;)</signature>
+                        <name>extractTo</name>
+                    </method>
+                    <method>
+                        <signature>void(string&amp;)</signature>
+                        <name>extractToEnd</name>
+                    </method>
+                    <method>
+                        <signature>bool(string, string&amp;)</signature>
+                        <name>extractToNoCase</name>
+                    </method>
+                    <method>
+                        <signature>bool(string, string&amp;)</signature>
+                        <name>extractUntil</name>
+                    </method>
+                    <method>
+                        <signature>bool(string, string&amp;)</signature>
+                        <name>extractUntilNoCase</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_Content</name>
+                    </method>
+                    <method>
+                        <signature>int32()</signature>
+                        <name>get_Position</name>
+                    </method>
+                    <method>
+                        <signature>void(string, string, System.Collections.ArrayList&amp;, System.Collections.ArrayList&amp;)</signature>
+                        <name>getLinks</name>
+                    </method>
+                    <method>
+                        <signature>string(string)</signature>
+                        <name>removeComments</name>
+                    </method>
+                    <method>
+                        <signature>string(string)</signature>
+                        <name>removeEnclosingAnchorTag</name>
+                    </method>
+                    <method>
+                        <signature>string(string)</signature>
+                        <name>removeEnclosingQuotes</name>
+                    </method>
+                    <method>
+                        <signature>string(string)</signature>
+                        <name>removeHtml</name>
+                    </method>
+                    <method>
+                        <signature>string(string)</signature>
+                        <name>removeScripts</name>
+                    </method>
+                    <method>
+                        <signature>int32(string, string)</signature>
+                        <name>replaceEvery</name>
+                    </method>
+                    <method>
+                        <signature>int32(string, string)</signature>
+                        <name>replaceEveryExact</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>resetPosition</name>
+                    </method>
+                    <method>
+                        <signature>bool(string, bool, bool)</signature>
+                        <name>seekTo</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>set_Content</name>
+                    </method>
+                    <method>
+                        <signature>bool(string)</signature>
+                        <name>skipToEndOf</name>
+                    </method>
+                    <method>
+                        <signature>bool(string)</signature>
+                        <name>skipToEndOfNoCase</name>
+                    </method>
+                    <method>
+                        <signature>bool(string)</signature>
+                        <name>skipToStartOf</name>
+                    </method>
+                    <method>
+                        <signature>bool(string)</signature>
+                        <name>skipToStartOfNoCase</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>int32</signature>
+                        <name>m_nIndex</name>
+                        <newname>eval_c</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>m_strContent</name>
+                        <newname>eval_a</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>m_strContentLC</name>
+                        <newname>eval_b</newname>
+                    </field>
+                </fieldlist>
+                <propertylist>
+                    <property>
+                        <signature>string()</signature>
+                        <name>Content</name>
+                    </property>
+                    <property>
+                        <signature>int32()</signature>
+                        <name>Position</name>
+                    </property>
+                </propertylist>
+                <eventlist />
+            </type>
+        </module>
+        <module>
+            <name>SubTran.exe</name>
+            <type>
+                <name>MultiLanguage.__MIDL_IWinTypes_0009</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>int32</signature>
+                        <name>hInproc</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>hRemote</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage._FILETIME</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>dwHighDateTime</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>dwLowDateTime</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage._LARGE_INTEGER</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>int64</signature>
+                        <name>QuadPart</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage._RemotableHandle</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>int32</signature>
+                        <name>fContext</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.__MIDL_IWinTypes_0009</signature>
+                        <name>u</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage._ULARGE_INTEGER</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int64</signature>
+                        <name>QuadPart</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.CMLangConvertCharset</name>
+                <methodlist />
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.CMLangConvertCharsetClass</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int8&amp;, unsigned int32&amp;, unsigned int8&amp;, unsigned int32&amp;)</signature>
+                        <name>DoConversion</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;)</signature>
+                        <name>DoConversionFromUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;)</signature>
+                        <name>DoConversionToUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetDestinationCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetProperty</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetSourceCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32)</signature>
+                        <name>Initialize</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.CMLangString</name>
+                <methodlist />
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.CMLangStringClass</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32, unsigned int32&amp;, int8&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>GetAStr</name>
+                    </method>
+                    <method>
+                        <signature>int32()</signature>
+                        <name>GetLength</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>GetLocale</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, unsigned int32, System.Guid&amp;, object&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>GetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32&amp;, MultiLanguage.IMLangStringBufA&amp;, int32&amp;)</signature>
+                        <name>GetStrBufA</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, MultiLanguage.IMLangStringBufW&amp;, int32&amp;)</signature>
+                        <name>GetStrBufW</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int16&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>GetWStr</name>
+                    </method>
+                    <method>
+                        <signature>int32()</signature>
+                        <name>IMLangStringAStr_GetLength</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>IMLangStringAStr_GetLocale</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, unsigned int32, System.Guid&amp;, object&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>IMLangStringAStr_GetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32)</signature>
+                        <name>IMLangStringAStr_SetLocale</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, int32, int32)</signature>
+                        <name>IMLangStringAStr_SetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32)</signature>
+                        <name>IMLangStringAStr_Sync</name>
+                    </method>
+                    <method>
+                        <signature>int32()</signature>
+                        <name>IMLangStringWStr_GetLength</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, unsigned int32, System.Guid&amp;, object&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>IMLangStringWStr_GetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, int32, int32)</signature>
+                        <name>IMLangStringWStr_SetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32)</signature>
+                        <name>IMLangStringWStr_Sync</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, int32, unsigned int32, int32, unsigned int32&amp;, native int, int32&amp;, int32&amp;)</signature>
+                        <name>LockAStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, int32, int32, native int, int32&amp;, int32&amp;)</signature>
+                        <name>LockWStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32, int8&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>SetAStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32)</signature>
+                        <name>SetLocale</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, int32, int32)</signature>
+                        <name>SetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32, MultiLanguage.IMLangStringBufA, int32&amp;, int32&amp;)</signature>
+                        <name>SetStrBufA</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, MultiLanguage.IMLangStringBufW, int32&amp;, int32&amp;)</signature>
+                        <name>SetStrBufW</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int16&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>SetWStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32)</signature>
+                        <name>Sync</name>
+                    </method>
+                    <method>
+                        <signature>void(int8&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>UnlockAStr</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>UnlockWStr</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.CMultiLanguage</name>
+                <methodlist />
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.CMultiLanguageClass</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, int8&amp;, int32, int32, int32&amp;, int32&amp;)</signature>
+                        <name>BreakLineA</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.CMLangString, int32, int32, int32, int32, int32&amp;, int32&amp;)</signature>
+                        <name>BreakLineML</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16&amp;, int32, int32, int32&amp;, int32&amp;)</signature>
+                        <name>BreakLineW</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>CodePagesToCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>CodePageToCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int8&amp;)</signature>
+                        <name>CodePageToScriptID</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int32, unsigned int8&amp;, unsigned int32&amp;, unsigned int8&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertString</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertStringFromUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;, unsigned int32, unsigned int16&amp;)</signature>
+                        <name>ConvertStringFromUnicodeEx</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32, unsigned int32, MultiLanguage.IStream, MultiLanguage.IStream)</signature>
+                        <name>ConvertStringInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>ConvertStringReset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertStringToUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;, unsigned int32, unsigned int16&amp;)</signature>
+                        <name>ConvertStringToUnicodeEx</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32, MultiLanguage.CMLangConvertCharset&amp;)</signature>
+                        <name>CreateConvertCharset</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.MLDETECTCP, unsigned int32, MultiLanguage.IStream, MultiLanguage.DetectEncodingInfo&amp;, int32&amp;)</signature>
+                        <name>DetectCodepageInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.MLDETECTCP, unsigned int32, unsigned int8&amp;, int32&amp;, MultiLanguage.DetectEncodingInfo&amp;, int32&amp;)</signature>
+                        <name>DetectInputCodepage</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.MLCPF, string, unsigned int32, native int, unsigned int32, native int, unsigned int32&amp;, unsigned int16&amp;)</signature>
+                        <name>DetectOutboundCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.IStream, unsigned int32&amp;, unsigned int32, unsigned int32&amp;, unsigned int32&amp;, unsigned int16&amp;)</signature>
+                        <name>DetectOutboundCodePageInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.IEnumCodePage&amp;)</signature>
+                        <name>EnumCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.IEnumCodePage&amp;)</signature>
+                        <name>EnumCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.IEnumRfc1766&amp;)</signature>
+                        <name>EnumRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, MultiLanguage.IEnumRfc1766&amp;)</signature>
+                        <name>EnumRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.IEnumScript&amp;)</signature>
+                        <name>EnumScripts</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, unsigned int32&amp;)</signature>
+                        <name>GetCharCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(string, MultiLanguage.tagMIMECSETINFO&amp;)</signature>
+                        <name>GetCharsetInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, string, int32)</signature>
+                        <name>GetCodePageDescription</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.tagMIMECPINFO&amp;)</signature>
+                        <name>GetCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.tagMIMECPINFO&amp;)</signature>
+                        <name>GetCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>GetFamilyCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, MultiLanguage._RemotableHandle&amp;, unsigned int32&amp;)</signature>
+                        <name>GetFontCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, unsigned int32&amp;, MultiLanguage.tagUNICODERANGE&amp;)</signature>
+                        <name>GetFontUnicodeRanges</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, string)</signature>
+                        <name>GetLcidFromRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetNumberOfCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetNumberOfScripts</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, string&amp;)</signature>
+                        <name>GetRfc1766FromLcid</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.tagRFC1766INFO&amp;)</signature>
+                        <name>GetRfc1766Info</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.tagRFC1766INFO&amp;)</signature>
+                        <name>GetRfc1766Info</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int8, unsigned int32, unsigned int32&amp;, MultiLanguage.tagSCRIPFONTINFO&amp;)</signature>
+                        <name>GetScriptFontInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, int32, unsigned int32, unsigned int32&amp;, int32&amp;)</signature>
+                        <name>GetStrCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>IMLangFontLink_CodePagesToCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>IMLangFontLink_CodePageToCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, unsigned int32&amp;)</signature>
+                        <name>IMLangFontLink_GetCharCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, int32, unsigned int32, unsigned int32&amp;, int32&amp;)</signature>
+                        <name>IMLangFontLink_GetStrCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>IMLangFontLink2_CodePagesToCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>IMLangFontLink2_CodePageToCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, unsigned int32&amp;)</signature>
+                        <name>IMLangFontLink2_GetCharCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, MultiLanguage._RemotableHandle&amp;, unsigned int32&amp;)</signature>
+                        <name>IMLangFontLink2_GetFontCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, int32, unsigned int32, unsigned int32&amp;, int32&amp;)</signature>
+                        <name>IMLangFontLink2_GetStrCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;)</signature>
+                        <name>IMLangFontLink2_ReleaseFont</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>IMLangFontLink2_ResetFontMapping</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int32, unsigned int8&amp;, unsigned int32&amp;, unsigned int8&amp;, unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage2_ConvertString</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage2_ConvertStringFromUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>IMultiLanguage2_ConvertStringReset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage2_ConvertStringToUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32, MultiLanguage.CMLangConvertCharset&amp;)</signature>
+                        <name>IMultiLanguage2_CreateConvertCharset</name>
+                    </method>
+                    <method>
+                        <signature>void(string, MultiLanguage.tagMIMECSETINFO&amp;)</signature>
+                        <name>IMultiLanguage2_GetCharsetInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage2_GetFamilyCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, string)</signature>
+                        <name>IMultiLanguage2_GetLcidFromRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage2_GetNumberOfCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, string&amp;)</signature>
+                        <name>IMultiLanguage2_GetRfc1766FromLcid</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32)</signature>
+                        <name>IMultiLanguage2_IsConvertible</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int32, unsigned int8&amp;, unsigned int32&amp;, unsigned int8&amp;, unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage3_ConvertString</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage3_ConvertStringFromUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;, unsigned int32, unsigned int16&amp;)</signature>
+                        <name>IMultiLanguage3_ConvertStringFromUnicodeEx</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32, unsigned int32, MultiLanguage.IStream, MultiLanguage.IStream)</signature>
+                        <name>IMultiLanguage3_ConvertStringInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>IMultiLanguage3_ConvertStringReset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage3_ConvertStringToUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;, unsigned int32, unsigned int16&amp;)</signature>
+                        <name>IMultiLanguage3_ConvertStringToUnicodeEx</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32, MultiLanguage.CMLangConvertCharset&amp;)</signature>
+                        <name>IMultiLanguage3_CreateConvertCharset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, MultiLanguage.IStream, MultiLanguage.DetectEncodingInfo&amp;, int32&amp;)</signature>
+                        <name>IMultiLanguage3_DetectCodepageInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, int8&amp;, int32&amp;, MultiLanguage.DetectEncodingInfo&amp;, int32&amp;)</signature>
+                        <name>IMultiLanguage3_DetectInputCodepage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.IEnumCodePage&amp;)</signature>
+                        <name>IMultiLanguage3_EnumCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, MultiLanguage.IEnumRfc1766&amp;)</signature>
+                        <name>IMultiLanguage3_EnumRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.IEnumScript&amp;)</signature>
+                        <name>IMultiLanguage3_EnumScripts</name>
+                    </method>
+                    <method>
+                        <signature>void(string, MultiLanguage.tagMIMECSETINFO&amp;)</signature>
+                        <name>IMultiLanguage3_GetCharsetInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, string, int32)</signature>
+                        <name>IMultiLanguage3_GetCodePageDescription</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.tagMIMECPINFO&amp;)</signature>
+                        <name>IMultiLanguage3_GetCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage3_GetFamilyCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, string)</signature>
+                        <name>IMultiLanguage3_GetLcidFromRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage3_GetNumberOfCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>IMultiLanguage3_GetNumberOfScripts</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, string&amp;)</signature>
+                        <name>IMultiLanguage3_GetRfc1766FromLcid</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.tagRFC1766INFO&amp;)</signature>
+                        <name>IMultiLanguage3_GetRfc1766Info</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32)</signature>
+                        <name>IMultiLanguage3_IsCodePageInstallable</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32)</signature>
+                        <name>IMultiLanguage3_IsConvertible</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.tagMIMECONTF)</signature>
+                        <name>IMultiLanguage3_SetMimeDBSource</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage._RemotableHandle&amp;)</signature>
+                        <name>IMultiLanguage3_ValidateCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage._RemotableHandle&amp;, unsigned int32)</signature>
+                        <name>IMultiLanguage3_ValidateCodePageEx</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32)</signature>
+                        <name>IsCodePageInstallable</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32)</signature>
+                        <name>IsConvertible</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, unsigned int32, MultiLanguage._RemotableHandle&amp;, native int)</signature>
+                        <name>MapFont</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, unsigned int32, unsigned int16, native int)</signature>
+                        <name>MapFont</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;)</signature>
+                        <name>ReleaseFont</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>ResetFontMapping</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.tagMIMECONTF)</signature>
+                        <name>SetMimeDBSource</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage._RemotableHandle&amp;)</signature>
+                        <name>ValidateCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage._RemotableHandle&amp;, unsigned int32)</signature>
+                        <name>ValidateCodePageEx</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.DetectEncodingInfo</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>nCodePage</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>nConfidence</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>nDocPercent</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>nLangID</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IEnumCodePage</name>
+                <methodlist>
+                    <method>
+                        <signature>void(MultiLanguage.IEnumCodePage&amp;)</signature>
+                        <name>Clone</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.tagMIMECPINFO&amp;, unsigned int32&amp;)</signature>
+                        <name>Next</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Reset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32)</signature>
+                        <name>Skip</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IEnumRfc1766</name>
+                <methodlist>
+                    <method>
+                        <signature>void(MultiLanguage.IEnumRfc1766&amp;)</signature>
+                        <name>Clone</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.tagRFC1766INFO&amp;, unsigned int32&amp;)</signature>
+                        <name>Next</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Reset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32)</signature>
+                        <name>Skip</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IEnumScript</name>
+                <methodlist>
+                    <method>
+                        <signature>void(MultiLanguage.IEnumScript&amp;)</signature>
+                        <name>Clone</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.tagSCRIPTINFO&amp;, unsigned int32&amp;)</signature>
+                        <name>Next</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Reset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32)</signature>
+                        <name>Skip</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangCodePages</name>
+                <methodlist>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>CodePagesToCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>CodePageToCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, unsigned int32&amp;)</signature>
+                        <name>GetCharCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, int32, unsigned int32, unsigned int32&amp;, int32&amp;)</signature>
+                        <name>GetStrCodePages</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangConvertCharset</name>
+                <methodlist>
+                    <method>
+                        <signature>void(unsigned int8&amp;, unsigned int32&amp;, unsigned int8&amp;, unsigned int32&amp;)</signature>
+                        <name>DoConversion</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;)</signature>
+                        <name>DoConversionFromUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;)</signature>
+                        <name>DoConversionToUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetDestinationCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetProperty</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetSourceCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32)</signature>
+                        <name>Initialize</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangFontLink</name>
+                <methodlist>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>CodePagesToCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>CodePageToCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, unsigned int32&amp;)</signature>
+                        <name>GetCharCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, MultiLanguage._RemotableHandle&amp;, unsigned int32&amp;)</signature>
+                        <name>GetFontCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, int32, unsigned int32, unsigned int32&amp;, int32&amp;)</signature>
+                        <name>GetStrCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, unsigned int32, MultiLanguage._RemotableHandle&amp;, native int)</signature>
+                        <name>MapFont</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;)</signature>
+                        <name>ReleaseFont</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>ResetFontMapping</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangFontLink2</name>
+                <methodlist>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>CodePagesToCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>CodePageToCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int8&amp;)</signature>
+                        <name>CodePageToScriptID</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, unsigned int32&amp;)</signature>
+                        <name>GetCharCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, MultiLanguage._RemotableHandle&amp;, unsigned int32&amp;)</signature>
+                        <name>GetFontCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, unsigned int32&amp;, MultiLanguage.tagUNICODERANGE&amp;)</signature>
+                        <name>GetFontUnicodeRanges</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int8, unsigned int32, unsigned int32&amp;, MultiLanguage.tagSCRIPFONTINFO&amp;)</signature>
+                        <name>GetScriptFontInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, int32, unsigned int32, unsigned int32&amp;, int32&amp;)</signature>
+                        <name>GetStrCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;, unsigned int32, unsigned int16, native int)</signature>
+                        <name>MapFont</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._RemotableHandle&amp;)</signature>
+                        <name>ReleaseFont</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>ResetFontMapping</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangLineBreakConsole</name>
+                <methodlist>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, int8&amp;, int32, int32, int32&amp;, int32&amp;)</signature>
+                        <name>BreakLineA</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.CMLangString, int32, int32, int32, int32, int32&amp;, int32&amp;)</signature>
+                        <name>BreakLineML</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16&amp;, int32, int32, int32&amp;, int32&amp;)</signature>
+                        <name>BreakLineW</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangString</name>
+                <methodlist>
+                    <method>
+                        <signature>int32()</signature>
+                        <name>GetLength</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, unsigned int32, System.Guid&amp;, object&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>GetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, int32, int32)</signature>
+                        <name>SetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32)</signature>
+                        <name>Sync</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangStringAStr</name>
+                <methodlist>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32, unsigned int32&amp;, int8&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>GetAStr</name>
+                    </method>
+                    <method>
+                        <signature>int32()</signature>
+                        <name>GetLength</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>GetLocale</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, unsigned int32, System.Guid&amp;, object&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>GetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32&amp;, MultiLanguage.IMLangStringBufA&amp;, int32&amp;)</signature>
+                        <name>GetStrBufA</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, int32, unsigned int32, int32, unsigned int32&amp;, native int, int32&amp;, int32&amp;)</signature>
+                        <name>LockAStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32, int8&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>SetAStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32)</signature>
+                        <name>SetLocale</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, int32, int32)</signature>
+                        <name>SetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32, MultiLanguage.IMLangStringBufA, int32&amp;, int32&amp;)</signature>
+                        <name>SetStrBufA</name>
+                    </method>
+                    <method>
+                        <signature>void(int32)</signature>
+                        <name>Sync</name>
+                    </method>
+                    <method>
+                        <signature>void(int8&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>UnlockAStr</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangStringBufA</name>
+                <methodlist>
+                    <method>
+                        <signature>void(int32, int32)</signature>
+                        <name>Delete</name>
+                    </method>
+                    <method>
+                        <signature>void(int32&amp;, int32&amp;)</signature>
+                        <name>GetStatus</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, int32&amp;)</signature>
+                        <name>Insert</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, native int, int32&amp;)</signature>
+                        <name>LockBuf</name>
+                    </method>
+                    <method>
+                        <signature>void(int8&amp;, int32, int32)</signature>
+                        <name>UnlockBuf</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangStringBufW</name>
+                <methodlist>
+                    <method>
+                        <signature>void(int32, int32)</signature>
+                        <name>Delete</name>
+                    </method>
+                    <method>
+                        <signature>void(int32&amp;, int32&amp;)</signature>
+                        <name>GetStatus</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, int32&amp;)</signature>
+                        <name>Insert</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, native int, int32&amp;)</signature>
+                        <name>LockBuf</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, int32, int32)</signature>
+                        <name>UnlockBuf</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMLangStringWStr</name>
+                <methodlist>
+                    <method>
+                        <signature>int32()</signature>
+                        <name>GetLength</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>GetLocale</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, unsigned int32, System.Guid&amp;, object&amp;, int32&amp;, int32&amp;)</signature>
+                        <name>GetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, MultiLanguage.IMLangStringBufW&amp;, int32&amp;)</signature>
+                        <name>GetStrBufW</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int16&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>GetWStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, int32, int32, native int, int32&amp;, int32&amp;)</signature>
+                        <name>LockWStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int32)</signature>
+                        <name>SetLocale</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, object, int32, int32)</signature>
+                        <name>SetMLStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, MultiLanguage.IMLangStringBufW, int32&amp;, int32&amp;)</signature>
+                        <name>SetStrBufW</name>
+                    </method>
+                    <method>
+                        <signature>void(int32, int32, unsigned int16&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>SetWStr</name>
+                    </method>
+                    <method>
+                        <signature>void(int32)</signature>
+                        <name>Sync</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16&amp;, int32, int32&amp;, int32&amp;)</signature>
+                        <name>UnlockWStr</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMultiLanguage</name>
+                <methodlist>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int32, unsigned int8&amp;, unsigned int32&amp;, unsigned int8&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertString</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertStringFromUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>ConvertStringReset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertStringToUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32, MultiLanguage.CMLangConvertCharset&amp;)</signature>
+                        <name>CreateConvertCharset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.IEnumCodePage&amp;)</signature>
+                        <name>EnumCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.IEnumRfc1766&amp;)</signature>
+                        <name>EnumRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(string, MultiLanguage.tagMIMECSETINFO&amp;)</signature>
+                        <name>GetCharsetInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.tagMIMECPINFO&amp;)</signature>
+                        <name>GetCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>GetFamilyCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, string)</signature>
+                        <name>GetLcidFromRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetNumberOfCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, string&amp;)</signature>
+                        <name>GetRfc1766FromLcid</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.tagRFC1766INFO&amp;)</signature>
+                        <name>GetRfc1766Info</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32)</signature>
+                        <name>IsConvertible</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMultiLanguage2</name>
+                <methodlist>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int32, unsigned int8&amp;, unsigned int32&amp;, unsigned int8&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertString</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertStringFromUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;, unsigned int32, unsigned int16&amp;)</signature>
+                        <name>ConvertStringFromUnicodeEx</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32, unsigned int32, MultiLanguage.IStream, MultiLanguage.IStream)</signature>
+                        <name>ConvertStringInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>ConvertStringReset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertStringToUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;, unsigned int32, unsigned int16&amp;)</signature>
+                        <name>ConvertStringToUnicodeEx</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32, MultiLanguage.CMLangConvertCharset&amp;)</signature>
+                        <name>CreateConvertCharset</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.MLDETECTCP, unsigned int32, MultiLanguage.IStream, MultiLanguage.DetectEncodingInfo&amp;, int32&amp;)</signature>
+                        <name>DetectCodepageInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.MLDETECTCP, unsigned int32, unsigned int8&amp;, int32&amp;, MultiLanguage.DetectEncodingInfo&amp;, int32&amp;)</signature>
+                        <name>DetectInputCodepage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.IEnumCodePage&amp;)</signature>
+                        <name>EnumCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, MultiLanguage.IEnumRfc1766&amp;)</signature>
+                        <name>EnumRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.IEnumScript&amp;)</signature>
+                        <name>EnumScripts</name>
+                    </method>
+                    <method>
+                        <signature>void(string, MultiLanguage.tagMIMECSETINFO&amp;)</signature>
+                        <name>GetCharsetInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, string, int32)</signature>
+                        <name>GetCodePageDescription</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.tagMIMECPINFO&amp;)</signature>
+                        <name>GetCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>GetFamilyCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, string)</signature>
+                        <name>GetLcidFromRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetNumberOfCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetNumberOfScripts</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, string&amp;)</signature>
+                        <name>GetRfc1766FromLcid</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.tagRFC1766INFO&amp;)</signature>
+                        <name>GetRfc1766Info</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32)</signature>
+                        <name>IsCodePageInstallable</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32)</signature>
+                        <name>IsConvertible</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.tagMIMECONTF)</signature>
+                        <name>SetMimeDBSource</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage._RemotableHandle&amp;)</signature>
+                        <name>ValidateCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage._RemotableHandle&amp;, unsigned int32)</signature>
+                        <name>ValidateCodePageEx</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IMultiLanguage3</name>
+                <methodlist>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int32, unsigned int8&amp;, unsigned int32&amp;, unsigned int8&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertString</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertStringFromUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32&amp;, int8&amp;, unsigned int32&amp;, unsigned int32, unsigned int16&amp;)</signature>
+                        <name>ConvertStringFromUnicodeEx</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, unsigned int16&amp;, unsigned int32, unsigned int32, MultiLanguage.IStream, MultiLanguage.IStream)</signature>
+                        <name>ConvertStringInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>ConvertStringReset</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;)</signature>
+                        <name>ConvertStringToUnicode</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, unsigned int32, int8&amp;, unsigned int32&amp;, unsigned int16&amp;, unsigned int32&amp;, unsigned int32, unsigned int16&amp;)</signature>
+                        <name>ConvertStringToUnicodeEx</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, unsigned int32, MultiLanguage.CMLangConvertCharset&amp;)</signature>
+                        <name>CreateConvertCharset</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.MLDETECTCP, unsigned int32, MultiLanguage.IStream, MultiLanguage.DetectEncodingInfo&amp;, int32&amp;)</signature>
+                        <name>DetectCodepageInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.MLDETECTCP, unsigned int32, unsigned int8&amp;, int32&amp;, MultiLanguage.DetectEncodingInfo&amp;, int32&amp;)</signature>
+                        <name>DetectInputCodepage</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.MLCPF, string, unsigned int32, native int, unsigned int32, native int, unsigned int32&amp;, unsigned int16&amp;)</signature>
+                        <name>DetectOutboundCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage.IStream, unsigned int32&amp;, unsigned int32, unsigned int32&amp;, unsigned int32&amp;, unsigned int16&amp;)</signature>
+                        <name>DetectOutboundCodePageInIStream</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.IEnumCodePage&amp;)</signature>
+                        <name>EnumCodePages</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int16, MultiLanguage.IEnumRfc1766&amp;)</signature>
+                        <name>EnumRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.IEnumScript&amp;)</signature>
+                        <name>EnumScripts</name>
+                    </method>
+                    <method>
+                        <signature>void(string, MultiLanguage.tagMIMECSETINFO&amp;)</signature>
+                        <name>GetCharsetInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32, string, int32)</signature>
+                        <name>GetCodePageDescription</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.tagMIMECPINFO&amp;)</signature>
+                        <name>GetCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32&amp;)</signature>
+                        <name>GetFamilyCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;, string)</signature>
+                        <name>GetLcidFromRfc1766</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetNumberOfCodePageInfo</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32&amp;)</signature>
+                        <name>GetNumberOfScripts</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, string&amp;)</signature>
+                        <name>GetRfc1766FromLcid</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int16, MultiLanguage.tagRFC1766INFO&amp;)</signature>
+                        <name>GetRfc1766Info</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32)</signature>
+                        <name>IsCodePageInstallable</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, unsigned int32)</signature>
+                        <name>IsConvertible</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.tagMIMECONTF)</signature>
+                        <name>SetMimeDBSource</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage._RemotableHandle&amp;)</signature>
+                        <name>ValidateCodePage</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32, MultiLanguage._RemotableHandle&amp;, unsigned int32)</signature>
+                        <name>ValidateCodePageEx</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.ISequentialStream</name>
+                <methodlist>
+                    <method>
+                        <signature>void(native int, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>RemoteRead</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int8&amp;, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>RemoteWrite</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.IStream</name>
+                <methodlist>
+                    <method>
+                        <signature>void(MultiLanguage.IStream&amp;)</signature>
+                        <name>Clone</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int32)</signature>
+                        <name>Commit</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._ULARGE_INTEGER, MultiLanguage._ULARGE_INTEGER, unsigned int32)</signature>
+                        <name>LockRegion</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.IStream, MultiLanguage._ULARGE_INTEGER, MultiLanguage._ULARGE_INTEGER&amp;, MultiLanguage._ULARGE_INTEGER&amp;)</signature>
+                        <name>RemoteCopyTo</name>
+                    </method>
+                    <method>
+                        <signature>void(native int, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>RemoteRead</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._LARGE_INTEGER, unsigned int32, native int)</signature>
+                        <name>RemoteSeek</name>
+                    </method>
+                    <method>
+                        <signature>void(unsigned int8&amp;, unsigned int32, unsigned int32&amp;)</signature>
+                        <name>RemoteWrite</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Revert</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._ULARGE_INTEGER)</signature>
+                        <name>SetSize</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage.tagSTATSTG&amp;, unsigned int32)</signature>
+                        <name>Stat</name>
+                    </method>
+                    <method>
+                        <signature>void(MultiLanguage._ULARGE_INTEGER, MultiLanguage._ULARGE_INTEGER, unsigned int32)</signature>
+                        <name>UnlockRegion</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.MLCPF</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>MultiLanguage.MLCPF</signature>
+                        <name>MLDETECTF_BROWSER</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLCPF</signature>
+                        <name>MLDETECTF_EURO_UTF8</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLCPF</signature>
+                        <name>MLDETECTF_FILTER_SPECIALCHAR</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLCPF</signature>
+                        <name>MLDETECTF_MAILNEWS</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLCPF</signature>
+                        <name>MLDETECTF_PREFERRED_ONLY</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLCPF</signature>
+                        <name>MLDETECTF_PRESERVE_ORDER</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLCPF</signature>
+                        <name>MLDETECTF_VALID</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLCPF</signature>
+                        <name>MLDETECTF_VALID_NLS</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>value__</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.MLDETECTCP</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>MultiLanguage.MLDETECTCP</signature>
+                        <name>MLDETECTCP_7BIT</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLDETECTCP</signature>
+                        <name>MLDETECTCP_8BIT</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLDETECTCP</signature>
+                        <name>MLDETECTCP_DBCS</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLDETECTCP</signature>
+                        <name>MLDETECTCP_HTML</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLDETECTCP</signature>
+                        <name>MLDETECTCP_NONE</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.MLDETECTCP</signature>
+                        <name>MLDETECTCP_NUMBER</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>value__</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.tagMIMECONTF</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_BROWSER</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_EXPORT</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_IMPORT</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_MAILNEWS</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_MIME_IE4</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_MIME_LATEST</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_MIME_REGISTRY</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_MINIMAL</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_PRIVCONVERTER</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_SAVABLE_BROWSER</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_SAVABLE_MAILNEWS</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_VALID</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMIMECONTF</signature>
+                        <name>MIMECONTF_VALID_NLS</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>value__</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.tagMIMECPINFO</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>bGDICharset</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>dwFlags</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>uiCodePage</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>uiFamilyCodePage</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszBodyCharset</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszDescription</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszFixedWidthFont</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszHeaderCharset</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszProportionalFont</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszWebCharset</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.tagMIMECSETINFO</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>uiCodePage</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>uiInternetEncoding</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszCharset</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.tagMLSTR_FLAGS</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>MultiLanguage.tagMLSTR_FLAGS</signature>
+                        <name>MLSTR_READ</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage.tagMLSTR_FLAGS</signature>
+                        <name>MLSTR_WRITE</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>value__</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.tagRFC1766INFO</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>lcid</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszLocaleName</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszRfc1766</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.tagSCRIPFONTINFO</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>int64</signature>
+                        <name>scripts</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszFont</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.tagSCRIPTINFO</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int8</signature>
+                        <name>ScriptId</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>uiCodePage</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszDescription</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszFixedWidthFont</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16[]</signature>
+                        <name>wszProportionalFont</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.tagSTATSTG</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>MultiLanguage._FILETIME</signature>
+                        <name>atime</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage._ULARGE_INTEGER</signature>
+                        <name>cbSize</name>
+                    </field>
+                    <field>
+                        <signature>System.Guid</signature>
+                        <name>clsid</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage._FILETIME</signature>
+                        <name>ctime</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>grfLocksSupported</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>grfMode</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>grfStateBits</name>
+                    </field>
+                    <field>
+                        <signature>MultiLanguage._FILETIME</signature>
+                        <name>mtime</name>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>pwcsName</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>reserved</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int32</signature>
+                        <name>type</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>MultiLanguage.tagUNICODERANGE</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>wcFrom</name>
+                    </field>
+                    <field>
+                        <signature>unsigned int16</signature>
+                        <name>wcTo</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>Nikse.SubtitleEdit.Logic.DetectEncoding.EncodingTools</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.cctor</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding(unsigned int8[])</signature>
+                        <name>DetectInputCodepage</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding[](unsigned int8[], int32)</signature>
+                        <name>DetectInputCodepages</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding(string)</signature>
+                        <name>DetectOutgoingEncoding</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding(string, int32[], bool)</signature>
+                        <name>DetectOutgoingEncoding</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding[](string)</signature>
+                        <name>DetectOutgoingEncodings</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding[](string, int32[], bool)</signature>
+                        <name>DetectOutgoingEncodings</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding(string)</signature>
+                        <name>DetectOutgoingStreamEncoding</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding[](string)</signature>
+                        <name>DetectOutgoingStreamEncodings</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding(string)</signature>
+                        <name>GetMostEfficientEncoding</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding(string, int32[])</signature>
+                        <name>GetMostEfficientEncoding</name>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding(string)</signature>
+                        <name>GetMostEfficientEncodingForStream</name>
+                    </method>
+                    <method>
+                        <signature>bool(string)</signature>
+                        <name>IsAscii</name>
+                    </method>
+                    <method>
+                        <signature>System.IO.StreamReader(string)</signature>
+                        <name>OpenTextFile</name>
+                    </method>
+                    <method>
+                        <signature>System.IO.StreamReader(System.IO.Stream)</signature>
+                        <name>OpenTextStream</name>
+                    </method>
+                    <method>
+                        <signature>string(string)</signature>
+                        <name>ReadTextFile</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>int32[]</signature>
+                        <name>AllEncodings</name>
+                    </field>
+                    <field>
+                        <signature>int32[]</signature>
+                        <name>PreferredEncodings</name>
+                    </field>
+                    <field>
+                        <signature>int32[]</signature>
+                        <name>PreferredEncodingsForStream</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>RavSoft.GoogleTranslator.Translator</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_ReverseTranslation</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_SourceLanguage</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_SourceText</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_TargetLanguage</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_Translation</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>getFetchUrl</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>getPostData</name>
+                    </method>
+                    <method>
+                        <signature>string(string)</signature>
+                        <name>LanguageEnumToIdentifier</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>parseContent</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>set_ReverseTranslation</name>
+                        <newname>eval_b</newname>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>set_SourceLanguage</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>set_SourceText</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>set_TargetLanguage</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>set_Translation</name>
+                        <newname>eval_c</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Translate</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.Collections.Generic.Dictionary`2&lt;string,string&gt;</signature>
+                        <name>_languageModeMap</name>
+                        <newname>eval_a</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>&lt;ReverseTranslation&gt;k__BackingField</name>
+                        <newname>eval_f</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>&lt;SourceLanguage&gt;k__BackingField</name>
+                        <newname>eval_b</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>&lt;SourceText&gt;k__BackingField</name>
+                        <newname>eval_d</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>&lt;TargetLanguage&gt;k__BackingField</name>
+                        <newname>eval_c</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>&lt;Translation&gt;k__BackingField</name>
+                        <newname>eval_e</newname>
+                    </field>
+                </fieldlist>
+                <propertylist>
+                    <property>
+                        <signature>string()</signature>
+                        <name>ReverseTranslation</name>
+                    </property>
+                    <property>
+                        <signature>string()</signature>
+                        <name>SourceLanguage</name>
+                    </property>
+                    <property>
+                        <signature>string()</signature>
+                        <name>SourceText</name>
+                    </property>
+                    <property>
+                        <signature>string()</signature>
+                        <name>TargetLanguage</name>
+                    </property>
+                    <property>
+                        <signature>string()</signature>
+                        <name>Translation</name>
+                    </property>
+                </propertylist>
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.BaseForm</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>void(bool)</signature>
+                        <name>Dispose</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>InitializeComponent</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>Main_Load</name>
+                        <newname>eval_a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.ComponentModel.IContainer</signature>
+                        <name>components</name>
+                        <newname>eval_a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.EncodingLib</name>
+                <newname>eval_a</newname>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>int32(string, string, string, string, string, string, string)</signature>
+                        <name>GetCount</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>System.Text.Encoding(string)</signature>
+                        <name>GetEncodingFromFile</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>bool(unsigned int8[])</signature>
+                        <name>IsUtf8</name>
+                        <newname>eval_a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.mainForm</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>aboutButton_Click</name>
+                        <newname>eval_e</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>buttonExit_Click</name>
+                        <newname>eval_c</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>buttonSave_Click</name>
+                        <newname>eval_b</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>buttonSaveAs_Click</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>Close_Click</name>
+                        <newname>eval_f</newname>
+                    </method>
+                    <method>
+                        <signature>void(bool)</signature>
+                        <name>Dispose</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>InitializeComponent</name>
+                        <newname>eval_d</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.Windows.Forms.LinkLabelLinkClickedEventArgs)</signature>
+                        <name>linkLabel1_LinkClicked</name>
+                        <newname>eval_b</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.Windows.Forms.LinkLabelLinkClickedEventArgs)</signature>
+                        <name>linkLabel2_LinkClicked</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>LoadSubtitles</name>
+                        <newname>eval_c</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>lvwSubtitles_Resize</name>
+                        <newname>eval_d</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>Main_Load</name>
+                        <newname>eval_g</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>OpenButton_Click</name>
+                        <newname>eval_i</newname>
+                    </method>
+                    <method>
+                        <signature>void(string[]&amp;, int32)</signature>
+                        <name>RedimArray</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>void(string, SubTran.SubtitleParser)</signature>
+                        <name>SaveFile</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>void(System.Windows.Forms.ListView, int32, int32, string)</signature>
+                        <name>SetControlPropertyValue</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>void(DevComponents.DotNetBar.Controls.ProgressBarX, int32)</signature>
+                        <name>SetProgressBarValue</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>System.Windows.Forms.DialogResult()</signature>
+                        <name>SetupOpenDialog</name>
+                        <newname>eval_b</newname>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>ThreadTranslate</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>void(object, System.EventArgs)</signature>
+                        <name>TranslateButton_Click</name>
+                        <newname>eval_h</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ComboBoxItem</signature>
+                        <name>_comboFrom</name>
+                        <newname>eval_ad</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ComboBoxItem</signature>
+                        <name>_comboTo</name>
+                        <newname>eval_r</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ButtonItem</signature>
+                        <name>aboutButton</name>
+                        <newname>eval_df</newname>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>ArrayPointer</name>
+                        <newname>eval_dx</newname>
+                    </field>
+                    <field>
+                        <signature>string[]</signature>
+                        <name>arrSubtitles</name>
+                        <newname>eval_d0</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ButtonItem</signature>
+                        <name>buttonExit</name>
+                        <newname>eval_dq</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ButtonItem</signature>
+                        <name>ButtonOpen</name>
+                        <newname>eval_ag</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ButtonItem</signature>
+                        <name>buttonSave</name>
+                        <newname>eval_do</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ButtonItem</signature>
+                        <name>buttonSaveAs</name>
+                        <newname>eval_dp</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.Button</signature>
+                        <name>Close</name>
+                        <newname>dn</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ColumnHeader</signature>
+                        <name>columnHeader1</name>
+                        <newname>eval_d</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ColumnHeader</signature>
+                        <name>columnHeader2</name>
+                        <newname>eval_e</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ColumnHeader</signature>
+                        <name>columnHeader3</name>
+                        <newname>eval_f</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ColumnHeader</signature>
+                        <name>columnHeader4</name>
+                        <newname>eval_g</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ColumnHeader</signature>
+                        <name>columnHeader5</name>
+                        <newname>eval_h</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem1</name>
+                        <newname>eval_t</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem10</name>
+                        <newname>eval_ah</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem100</name>
+                        <newname>eval_cy</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem101</name>
+                        <newname>eval_cz</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem102</name>
+                        <newname>eval_c0</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem103</name>
+                        <newname>eval_c1</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem104</name>
+                        <newname>eval_c2</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem105</name>
+                        <newname>eval_c3</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem106</name>
+                        <newname>eval_c4</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem107</name>
+                        <newname>eval_c5</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem108</name>
+                        <newname>eval_c6</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem109</name>
+                        <newname>eval_c7</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem11</name>
+                        <newname>eval_ai</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem110</name>
+                        <newname>eval_c8</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem111</name>
+                        <newname>eval_c9</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem112</name>
+                        <newname>eval_da</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem113</name>
+                        <newname>eval_db</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem114</name>
+                        <newname>eval_dc</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem12</name>
+                        <newname>eval_aj</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem13</name>
+                        <newname>eval_ak</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem14</name>
+                        <newname>eval_al</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem15</name>
+                        <newname>eval_am</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem16</name>
+                        <newname>eval_an</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem17</name>
+                        <newname>eval_ao</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem18</name>
+                        <newname>eval_ap</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem19</name>
+                        <newname>eval_aq</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem2</name>
+                        <newname>eval_u</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem20</name>
+                        <newname>eval_ar</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem21</name>
+                        <newname>eval_as</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem22</name>
+                        <newname>eval_at</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem23</name>
+                        <newname>eval_au</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem24</name>
+                        <newname>eval_av</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem25</name>
+                        <newname>eval_aw</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem26</name>
+                        <newname>eval_ax</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem27</name>
+                        <newname>eval_ay</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem28</name>
+                        <newname>eval_az</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem29</name>
+                        <newname>eval_a0</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem3</name>
+                        <newname>eval_v</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem30</name>
+                        <newname>eval_a1</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem31</name>
+                        <newname>eval_a2</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem32</name>
+                        <newname>eval_a3</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem33</name>
+                        <newname>eval_a4</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem34</name>
+                        <newname>eval_a5</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem35</name>
+                        <newname>eval_a6</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem36</name>
+                        <newname>eval_a7</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem37</name>
+                        <newname>eval_a8</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem38</name>
+                        <newname>eval_a9</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem39</name>
+                        <newname>eval_ba</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem4</name>
+                        <newname>eval_w</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem40</name>
+                        <newname>eval_bb</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem41</name>
+                        <newname>eval_bc</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem42</name>
+                        <newname>eval_bd</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem43</name>
+                        <newname>eval_be</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem44</name>
+                        <newname>eval_bf</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem45</name>
+                        <newname>eval_bg</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem46</name>
+                        <newname>eval_bh</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem47</name>
+                        <newname>eval_bi</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem48</name>
+                        <newname>eval_bj</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem49</name>
+                        <newname>eval_bk</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem5</name>
+                        <newname>eval_x</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem50</name>
+                        <newname>eval_bl</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem51</name>
+                        <newname>eval_bm</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem52</name>
+                        <newname>eval_bn</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem53</name>
+                        <newname>eval_bo</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem54</name>
+                        <newname>eval_bp</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem55</name>
+                        <newname>eval_bq</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem56</name>
+                        <newname>eval_br</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem57</name>
+                        <newname>eval_bs</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem58</name>
+                        <newname>eval_bt</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem59</name>
+                        <newname>eval_bu</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem6</name>
+                        <newname>eval_y</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem60</name>
+                        <newname>eval_bv</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem61</name>
+                        <newname>eval_bw</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem62</name>
+                        <newname>eval_bx</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem63</name>
+                        <newname>eval_by</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem64</name>
+                        <newname>eval_bz</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem65</name>
+                        <newname>eval_b0</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem66</name>
+                        <newname>eval_b1</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem67</name>
+                        <newname>eval_b2</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem68</name>
+                        <newname>eval_b3</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem69</name>
+                        <newname>eval_b4</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem7</name>
+                        <newname>eval_z</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem70</name>
+                        <newname>eval_b5</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem71</name>
+                        <newname>eval_b6</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem72</name>
+                        <newname>eval_b7</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem73</name>
+                        <newname>eval_b8</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem74</name>
+                        <newname>eval_b9</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem75</name>
+                        <newname>eval_ca</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem76</name>
+                        <newname>eval_cb</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem77</name>
+                        <newname>eval_cc</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem78</name>
+                        <newname>eval_cd</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem79</name>
+                        <newname>eval_ce</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem8</name>
+                        <newname>eval_aa</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem80</name>
+                        <newname>eval_cf</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem81</name>
+                        <newname>eval_cg</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem82</name>
+                        <newname>eval_ch</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem83</name>
+                        <newname>eval_ci</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem84</name>
+                        <newname>eval_cj</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem85</name>
+                        <newname>eval_ck</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem86</name>
+                        <newname>eval_cl</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem87</name>
+                        <newname>eval_cm</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem88</name>
+                        <newname>eval_cn</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem9</name>
+                        <newname>eval_ab</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem90</name>
+                        <newname>eval_co</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem91</name>
+                        <newname>eval_cp</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem92</name>
+                        <newname>eval_cq</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem93</name>
+                        <newname>eval_cr</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem94</name>
+                        <newname>eval_cs</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem95</name>
+                        <newname>eval_ct</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem96</name>
+                        <newname>eval_cu</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem97</name>
+                        <newname>eval_cv</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem98</name>
+                        <newname>eval_cw</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.Editors.ComboItem</signature>
+                        <name>comboItem99</name>
+                        <newname>eval_cx</newname>
+                    </field>
+                    <field>
+                        <signature>System.ComponentModel.IContainer</signature>
+                        <name>components</name>
+                        <newname>eval_a</newname>
+                    </field>
+                    <field>
+                        <signature>System.Text.Encoding</signature>
+                        <name>currentEncoding</name>
+                        <newname>eval_d5</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>currentFile</name>
+                        <newname>eval_d4</newname>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>currentIndex</name>
+                        <newname>eval_dz</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.TextBoxItem</signature>
+                        <name>FrameRateBox</name>
+                        <newname>eval_dv</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ItemContainer</signature>
+                        <name>itemContainer1</name>
+                        <newname>eval_dt</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ItemContainer</signature>
+                        <name>itemContainer2</name>
+                        <newname>eval_q</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ItemContainer</signature>
+                        <name>itemContainer3</name>
+                        <newname>eval_p</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.Label</signature>
+                        <name>label1</name>
+                        <newname>dj</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.Label</signature>
+                        <name>label2</name>
+                        <newname>dh</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.Label</signature>
+                        <name>label3</name>
+                        <newname>dm</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.LabelItem</signature>
+                        <name>labelItem1</name>
+                        <newname>eval_s</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.LabelItem</signature>
+                        <name>labelItem2</name>
+                        <newname>eval_ac</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.LabelItem</signature>
+                        <name>labelItem3</name>
+                        <newname>eval_du</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.LabelItem</signature>
+                        <name>labelItem4</name>
+                        <newname>eval_dw</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.Label</signature>
+                        <name>lblProduct</name>
+                        <newname>eval_dk</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.LinkLabel</signature>
+                        <name>linkLabel1</name>
+                        <newname>eval_di</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.LinkLabel</signature>
+                        <name>linkLabel2</name>
+                        <newname>eval_dl</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.ListView</signature>
+                        <name>lvwSubtitles</name>
+                        <newname>eval_c</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.Office2007StartButton</signature>
+                        <name>office2007StartButton1</name>
+                        <newname>eval_j</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.OpenFileDialog</signature>
+                        <name>openFileDialog</name>
+                        <newname>eval_b</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.PanelEx</signature>
+                        <name>panelAbout</name>
+                        <newname>eval_dg</newname>
+                    </field>
+                    <field>
+                        <signature>SubTran.SubtitleParser</signature>
+                        <name>parserEngine</name>
+                        <newname>eval_d1</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.Controls.ProgressBarX</signature>
+                        <name>progressBarX</name>
+                        <newname>eval_dd</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.QatCustomizeItem</signature>
+                        <name>qatCustomizeItem1</name>
+                        <newname>eval_l</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.RibbonBar</signature>
+                        <name>ribbonBar1</name>
+                        <newname>eval_ae</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.RibbonBar</signature>
+                        <name>ribbonBar2</name>
+                        <newname>eval_o</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.RibbonBar</signature>
+                        <name>ribbonBar3</name>
+                        <newname>eval_de</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.RibbonBar</signature>
+                        <name>ribbonBar4</name>
+                        <newname>eval_ds</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.RibbonControl</signature>
+                        <name>ribbonControl1</name>
+                        <newname>eval_i</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.RibbonPanel</signature>
+                        <name>ribbonPanel1</name>
+                        <newname>eval_n</newname>
+                    </field>
+                    <field>
+                        <signature>System.Windows.Forms.SaveFileDialog</signature>
+                        <name>saveFileDialog</name>
+                        <newname>eval_dr</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>SourceLang</name>
+                        <newname>eval_d2</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.StyleManager</signature>
+                        <name>styleManager1</name>
+                        <newname>eval_m</newname>
+                    </field>
+                    <field>
+                        <signature>RavSoft.GoogleTranslator.Translator</signature>
+                        <name>t</name>
+                        <newname>dy</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>TargetLang</name>
+                        <newname>eval_d3</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.ButtonItem</signature>
+                        <name>TranslateButton</name>
+                        <newname>eval_af</newname>
+                    </field>
+                    <field>
+                        <signature>DevComponents.DotNetBar.RibbonTabItem</signature>
+                        <name>Translator</name>
+                        <newname>eval_k</newname>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.mainForm/SetControlValueCallback</name>
+                <newname>SubTran.mainForm/eval_a</newname>
+                <methodlist>
+                    <method>
+                        <signature>void(object, native int)</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>System.IAsyncResult(System.Windows.Forms.ListView, int32, int32, string, System.AsyncCallback, object)</signature>
+                        <name>BeginInvoke</name>
+                    </method>
+                    <method>
+                        <signature>void(System.IAsyncResult)</signature>
+                        <name>EndInvoke</name>
+                    </method>
+                    <method>
+                        <signature>void(System.Windows.Forms.ListView, int32, int32, string)</signature>
+                        <name>Invoke</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.mainForm/SetProgressBarCallback</name>
+                <newname>SubTran.mainForm/eval_b</newname>
+                <methodlist>
+                    <method>
+                        <signature>void(object, native int)</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>System.IAsyncResult(DevComponents.DotNetBar.Controls.ProgressBarX, int32, System.AsyncCallback, object)</signature>
+                        <name>BeginInvoke</name>
+                    </method>
+                    <method>
+                        <signature>void(System.IAsyncResult)</signature>
+                        <name>EndInvoke</name>
+                    </method>
+                    <method>
+                        <signature>void(DevComponents.DotNetBar.Controls.ProgressBarX, int32)</signature>
+                        <name>Invoke</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.MicroDVDSubParser</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>System.DateTime(float32)</signature>
+                        <name>ConvertSecondsToTime</name>
+                    </method>
+                    <method>
+                        <signature>System.Collections.Generic.List`1&lt;SubTran.SubtitleItem&gt;(string)</signature>
+                        <name>ReadFile</name>
+                    </method>
+                    <method>
+                        <signature>void(string, System.Collections.Generic.List`1&lt;SubTran.SubtitleItem&gt;)</signature>
+                        <name>Save</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.Program</name>
+                <newname>eval_b</newname>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>Main</name>
+                        <newname>a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.Properties.Resources</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>System.Globalization.CultureInfo()</signature>
+                        <name>get_Culture</name>
+                        <newname>eval_b</newname>
+                    </method>
+                    <method>
+                        <signature>System.Drawing.Bitmap()</signature>
+                        <name>get_file_open</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>System.Resources.ResourceManager()</signature>
+                        <name>get_ResourceManager</name>
+                        <newname>eval_c</newname>
+                    </method>
+                    <method>
+                        <signature>void(System.Globalization.CultureInfo)</signature>
+                        <name>set_Culture</name>
+                        <newname>eval_a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.Globalization.CultureInfo</signature>
+                        <name>resourceCulture</name>
+                        <newname>eval_b</newname>
+                    </field>
+                    <field>
+                        <signature>System.Resources.ResourceManager</signature>
+                        <name>resourceMan</name>
+                        <newname>eval_a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist>
+                    <property>
+                        <signature>System.Globalization.CultureInfo()</signature>
+                        <name>Culture</name>
+                    </property>
+                    <property>
+                        <signature>System.Drawing.Bitmap()</signature>
+                        <name>file_open</name>
+                    </property>
+                    <property>
+                        <signature>System.Resources.ResourceManager()</signature>
+                        <name>ResourceManager</name>
+                    </property>
+                </propertylist>
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.Properties.Settings</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.cctor</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>SubTran.Properties.Settings()</signature>
+                        <name>get_Default</name>
+                        <newname>eval_a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>SubTran.Properties.Settings</signature>
+                        <name>defaultInstance</name>
+                        <newname>eval_a</newname>
+                    </field>
+                </fieldlist>
+                <propertylist>
+                    <property>
+                        <signature>SubTran.Properties.Settings()</signature>
+                        <name>Default</name>
+                    </property>
+                </propertylist>
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.SRTLine</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>string</signature>
+                        <name>Line</name>
+                    </field>
+                    <field>
+                        <signature>SubTran.SRTLineType</signature>
+                        <name>LineType</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.SRTLineType</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>SubTran.SRTLineType</signature>
+                        <name>BLANK</name>
+                    </field>
+                    <field>
+                        <signature>SubTran.SRTLineType</signature>
+                        <name>SEQUENCE</name>
+                    </field>
+                    <field>
+                        <signature>SubTran.SRTLineType</signature>
+                        <name>SUBTITLE</name>
+                    </field>
+                    <field>
+                        <signature>SubTran.SRTLineType</signature>
+                        <name>TIMER</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>value__</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.SubRipParser</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>System.Collections.Generic.List`1&lt;SubTran.SubtitleItem&gt;(string)</signature>
+                        <name>ReadFile</name>
+                    </method>
+                    <method>
+                        <signature>void(string, System.Collections.Generic.List`1&lt;SubTran.SubtitleItem&gt;)</signature>
+                        <name>Save</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.SubtitleItem</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.TimeSpan</signature>
+                        <name>Duration</name>
+                    </field>
+                    <field>
+                        <signature>System.DateTime</signature>
+                        <name>FromTime</name>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>Subtitle</name>
+                    </field>
+                    <field>
+                        <signature>System.DateTime</signature>
+                        <name>ToTime</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.SubtitleParser</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>System.Collections.Generic.List`1&lt;SubTran.SubtitleItem&gt;(string)</signature>
+                        <name>ReadFile</name>
+                    </method>
+                    <method>
+                        <signature>void(string, System.Collections.Generic.List`1&lt;SubTran.SubtitleItem&gt;)</signature>
+                        <name>Save</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.Text.Encoding</signature>
+                        <name>FileEncoding</name>
+                    </field>
+                    <field>
+                        <signature>SubTran.SubtitleType</signature>
+                        <name>FileType</name>
+                    </field>
+                    <field>
+                        <signature>float32</signature>
+                        <name>FrameRate</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>SubTran.SubtitleType</name>
+                <methodlist />
+                <fieldlist>
+                    <field>
+                        <signature>SubTran.SubtitleType</signature>
+                        <name>MICRODVD_SUB</name>
+                    </field>
+                    <field>
+                        <signature>SubTran.SubtitleType</signature>
+                        <name>SUBRIP_SRT</name>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>value__</name>
+                    </field>
+                </fieldlist>
+                <propertylist />
+                <eventlist />
+            </type>
+        </module>
+        <module>
+            <name>WebResourceProvider.dll</name>
+            <type>
+                <name>RavSoft.WebResourceProvider</name>
+                <methodlist>
+                    <method>
+                        <signature>void()</signature>
+                        <name>.ctor</name>
+                    </method>
+                    <method>
+                        <signature>bool()</signature>
+                        <name>continueFetching</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>fetchResource</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_Agent</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_Content</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_ErrorMsg</name>
+                    </method>
+                    <method>
+                        <signature>System.DateTime()</signature>
+                        <name>get_FetchTime</name>
+                    </method>
+                    <method>
+                        <signature>int32()</signature>
+                        <name>get_Pause</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_Referer</name>
+                    </method>
+                    <method>
+                        <signature>int32()</signature>
+                        <name>get_Timeout</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>getContent</name>
+                        <newname>eval_a</newname>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>getFetchUrl</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>getPostData</name>
+                    </method>
+                    <method>
+                        <signature>bool()</signature>
+                        <name>init</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>parseContent</name>
+                    </method>
+                    <method>
+                        <signature>void()</signature>
+                        <name>reset</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>set_Agent</name>
+                    </method>
+                    <method>
+                        <signature>void(int32)</signature>
+                        <name>set_Pause</name>
+                    </method>
+                    <method>
+                        <signature>void(string)</signature>
+                        <name>set_Referer</name>
+                    </method>
+                    <method>
+                        <signature>void(int32)</signature>
+                        <name>set_Timeout</name>
+                    </method>
+                </methodlist>
+                <fieldlist>
+                    <field>
+                        <signature>System.Net.HttpStatusCode</signature>
+                        <name>m_httpStatusCode</name>
+                        <newname>eval_e</newname>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>m_nPause</name>
+                        <newname>eval_f</newname>
+                    </field>
+                    <field>
+                        <signature>int32</signature>
+                        <name>m_nTimeout</name>
+                        <newname>eval_g</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>m_strAgent</name>
+                        <newname>eval_a</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>m_strContent</name>
+                        <newname>eval_d</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>m_strError</name>
+                        <newname>eval_c</newname>
+                    </field>
+                    <field>
+                        <signature>string</signature>
+                        <name>m_strReferer</name>
+                        <newname>eval_b</newname>
+                    </field>
+                    <field>
+                        <signature>System.DateTime</signature>
+                        <name>m_tmFetchTime</name>
+                        <newname>eval_h</newname>
+                    </field>
+                </fieldlist>
+                <propertylist>
+                    <property>
+                        <signature>string()</signature>
+                        <name>Agent</name>
+                    </property>
+                    <property>
+                        <signature>string()</signature>
+                        <name>Content</name>
+                    </property>
+                    <property>
+                        <signature>string()</signature>
+                        <name>ErrorMsg</name>
+                    </property>
+                    <property>
+                        <signature>System.DateTime()</signature>
+                        <name>FetchTime</name>
+                    </property>
+                    <property>
+                        <signature>int32()</signature>
+                        <name>Pause</name>
+                    </property>
+                    <property>
+                        <signature>string()</signature>
+                        <name>Referer</name>
+                    </property>
+                    <property>
+                        <signature>int32()</signature>
+                        <name>Timeout</name>
+                    </property>
+                </propertylist>
+                <eventlist />
+            </type>
+        </module>
+    </mapping>
+    <statistics>
+        <statisticline>
+            <description>Total Classes</description>
+            <statistic>60</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods</description>
+            <statistic>438</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields</description>
+            <statistic>288</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties</description>
+            <statistic>18</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Classes Renamed</description>
+            <statistic>4</statistic>
+            <statistic>6.67 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods Renamed</description>
+            <statistic>36</statistic>
+            <statistic>8.22 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields Renamed</description>
+            <statistic>187</statistic>
+            <statistic>64.93 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'eval_a'</description>
+            <statistic>19</statistic>
+            <statistic>4.34 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'eval_b'</description>
+            <statistic>5</statistic>
+            <statistic>1.14 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'eval_c'</description>
+            <statistic>4</statistic>
+            <statistic>0.91 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'eval_d'</description>
+            <statistic>2</statistic>
+            <statistic>0.46 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'a'</description>
+            <statistic>1</statistic>
+            <statistic>0.23 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'eval_e'</description>
+            <statistic>1</statistic>
+            <statistic>0.23 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'eval_f'</description>
+            <statistic>1</statistic>
+            <statistic>0.23 %</statistic>
+        </statisticline>
+    </statistics>
+</dotfuscatorMap>

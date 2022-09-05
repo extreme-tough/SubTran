@@ -1,0 +1,9 @@
+C:\Projects\Cuebiz\SubTran\SubTran\LanguageNeural\bin\x86\Debug\LanguageNeural.dll.config
+C:\Projects\Cuebiz\SubTran\SubTran\LanguageNeural\bin\x86\Debug\LanguageNeural.dll
+C:\Projects\Cuebiz\SubTran\SubTran\LanguageNeural\bin\x86\Debug\LanguageNeural.pdb
+C:\Projects\Cuebiz\SubTran\SubTran\LanguageNeural\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\Cuebiz\SubTran\SubTran\LanguageNeural\obj\x86\Debug\DialogueMaster.Babel.Installer.resources
+C:\Projects\Cuebiz\SubTran\SubTran\LanguageNeural\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Projects\Cuebiz\SubTran\SubTran\LanguageNeural\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Projects\Cuebiz\SubTran\SubTran\LanguageNeural\obj\x86\Debug\LanguageNeural.dll
+C:\Projects\Cuebiz\SubTran\SubTran\LanguageNeural\obj\x86\Debug\LanguageNeural.pdb

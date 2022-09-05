@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C9A4D300-CE8E-4A9D-9108-E2369290EABD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SubTran</RootNamespace>
+    <AssemblyName>SubTran</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Translation.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\..\..\..\Program Files\DotNetBar\Bin\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=2.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL" />
+    <Reference Include="StringParser, Version=1.0.2206.35490, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\StringParser.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebResourceProvider, Version=1.0.2206.29497, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WebResourceProvider.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classLib.cs" />
+    <Compile Include="DetectEncoding\EncodingTools.cs" />
+    <Compile Include="DetectEncoding\Multilang\CMLangConvertCharset.cs" />
+    <Compile Include="DetectEncoding\Multilang\CMLangConvertCharsetClass.cs" />
+    <Compile Include="DetectEncoding\Multilang\CMLangString.cs" />
+    <Compile Include="DetectEncoding\Multilang\CMLangStringClass.cs" />
+    <Compile Include="DetectEncoding\Multilang\CMultiLanguage.cs" />
+    <Compile Include="DetectEncoding\Multilang\CMultiLanguageClass.cs" />
+    <Compile Include="DetectEncoding\Multilang\IEnumCodePage.cs" />
+    <Compile Include="DetectEncoding\Multilang\IEnumRfc1766.cs" />
+    <Compile Include="DetectEncoding\Multilang\IEnumScript.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangCodePages.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangConvertCharset.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangFontLink.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangFontLink2.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangLineBreakConsole.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangString.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangStringAStr.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangStringBufA.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangStringBufW.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMLangStringWStr.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMultiLanguage.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMultiLanguage2.cs" />
+    <Compile Include="DetectEncoding\Multilang\IMultiLanguage3.cs" />
+    <Compile Include="DetectEncoding\Multilang\ISequentialStream.cs" />
+    <Compile Include="DetectEncoding\Multilang\IStream.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagDetectEncodingInfo.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagMIMECONTF.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagMIMECPINFO.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagMIMECSETINFO.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagMLCPF.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagMLDETECTCP.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagMLSTR_FLAGS.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagRFC1766INFO.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagSCRIPFONTINFO.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagSCRIPTINFO.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagSTATSTG.cs" />
+    <Compile Include="DetectEncoding\Multilang\tagUNICODERANGE.cs" />
+    <Compile Include="DetectEncoding\Multilang\_FILETIME.cs" />
+    <Compile Include="DetectEncoding\Multilang\_LARGE_INTEGER.cs" />
+    <Compile Include="DetectEncoding\Multilang\_RemotableHandle.cs" />
+    <Compile Include="DetectEncoding\Multilang\_ULARGE_INTEGER.cs" />
+    <Compile Include="DetectEncoding\Multilang\__MIDL_IWinTypes_0009.cs" />
+    <Compile Include="Encoding.cs" />
+    <Compile Include="Languages.cs" />
+    <Compile Include="SubtitleParser.cs" />
+    <Compile Include="mainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainForm.Designer.cs">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Translator.cs" />
+    <EmbeddedResource Include="BaseForm.resx">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainForm.resx">
+      <DependentUpon>mainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\file-open.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
+    <Content Include="Translation.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LanguageNeural\LanguageNeural.csproj">
+      <Project>{3825704F-160A-4EE1-928C-A980D6C96224}</Project>
+      <Name>LanguageNeural</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
